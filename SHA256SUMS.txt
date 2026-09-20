@@ -1,7 +1,7 @@
-e386d8d75199fdbc6b2e32270c00ceca813726ac528cea465117bb67cf4b908f  README.md
+# SHA-256 of published, unchanged documentation files from the prepared package.
+# README.md differs from the prepared package: the live README indicates binary upload is pending.
+# Two Proteus source-file checksums are recorded in docs/source-provenance.md but those binary files are not yet present here.
 16a6cc89aa200158db559798f9503ccf7a0eb9c82e3df1566c674835c267f5c4  docs/navigation-logic.md
 9061029e4e64b91c75183045fe7cf737cca956621486295b864f63f84ae6ff68  docs/simulation-notes.md
 ef86d29c4956ec7f9ccc525a727dae057c77d899a514f0fc2e59b26567e7e4d4  docs/source-provenance.md
 0fc3bfa880238ec8adc72797806adbab665b2c77a8f314df0225ff1e8ec356ec  images/README.md
-b9e43e869a7057787e6bd65143a9d9b0e9f45d65adbcd55995271146588970ca  proteus/logic-only/Maze solving robot.pdsprj
-8074ccea0d48ff4d4e5ac7c0567766368944990a89c633bbf4afdff281d2c13a  proteus/ultrasonic-experiment/Last edition of maze solving Project.pdsprj
