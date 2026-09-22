@@ -2,7 +2,7 @@
 
 A robot designed to navigate using three IR obstacle sensors, digital logic ICs, and a TB6612FNG motor driver **without a navigation microcontroller**.
 
-> **Project status:** Physical robot and bench-level logic/motor tests reported by the author. The two supplied Proteus files are preserved as design variants in the [upload-ready archive](https://github.com/shahriaralam-rivon/logic-based-maze-solving-robot); the binary designs are **not yet uploaded to this repository**. They have been inspected structurally, **not** opened or run in Proteus during this portfolio preparation. Complete real-maze performance has not been independently documented here.
+> **Project status:** Physical robot and bench-level logic/motor tests reported by the author. The two supplied Proteus design variants are included in this repository under `proteus/`. They have been inspected structurally, **not** opened or run in Proteus during this portfolio preparation. They have been inspected structurally, **not** opened or run in Proteus during this portfolio preparation. Complete real-maze performance has not been independently documented here.
 
 ## Project overview
 
@@ -26,10 +26,10 @@ Two design variants were supplied because they represent development for better 
 
 | Variant | Original filename | Notes |
 | --- | --- | --- |
-| Logic-only design | `Maze solving robot.pdsprj` | Contains 74HC08/11/14/32 and TB6612FNG references. No external HEX filename found by text inspection. |
-| Ultrasonic experiment | `Last edition of maze solving Project.pdsprj` | Contains ultrasonic simulation components and references to `UltraSonicSensor.HEX` / `UltraSonicTEP.HEX`; dependency and rights checks remain. Does **not** establish that the physical robot used ultrasonic navigation. |
+| [Logic-only design](proteus/logic-only/Maze%20solving%20robot.pdsprj) | `Maze solving robot.pdsprj` | Contains 74HC08/11/14/32 and TB6612FNG references. No external HEX filename found by text inspection. |
+| [Ultrasonic experiment](proteus/ultrasonic-experiment/Last%20edition%20of%20maze%20solving%20Project.pdsprj) | `Last edition of maze solving Project.pdsprj` | Contains ultrasonic simulation components and references to `UltraSonicSensor.HEX` / `UltraSonicTEP.HEX`; dependency and rights checks remain. Does **not** establish that the physical robot used ultrasonic navigation. |
 
-**Source-file upload pending:** the project's Proteus binary files need to be added under `proteus/logic-only/` and `proteus/ultrasonic-experiment/`. See [simulation notes](docs/simulation-notes.md) before reproducing. Proprietary/missing third-party models and HEX files are not bundled here.
+**Source files available:** both original `.pdsprj` files are included under `proteus/`. See [simulation notes](docs/simulation-notes.md) before reproducing. Proprietary/missing third-party models and HEX files are not bundled here. Proprietary/missing third-party models and HEX files are not bundled here.
 
 ## Testing and evidence
 
